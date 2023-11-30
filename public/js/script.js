@@ -11,7 +11,7 @@ function completaTarefa (id) {
 }
 
 function descompletarTarefa(id) {
-    fetch("http://localhost:/3000/descompletar", {
+    fetch("http://localhost:3000/descompletar", {
         method: "POST",
         headers: {
             'Content-Type': "application/json"
